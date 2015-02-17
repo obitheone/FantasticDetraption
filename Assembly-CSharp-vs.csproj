@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{066E42C9-FFE6-EDF7-C737-63877E74B0DB}</ProjectGuid>
+	<ProjectGuid>{46E4F246-E5E8-625B-2BE7-1B8DBD6BF562}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,11 +46,11 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\CreateObjects.cs" />
      <Compile Include="Assets\CreateStick.cs" />
-     <Compile Include="Assets\CreateWheelL.cs" />
-     <Compile Include="Assets\CreateWheelN.cs" />
-     <Compile Include="Assets\CreateWheelR.cs" />
+     <Compile Include="Assets\DeleteObject.cs" />
      <Compile Include="Assets\Force.cs" />
+     <Compile Include="Assets\NewBehaviourScript.cs" />
      <Compile Include="Assets\Start_Stop.cs" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
