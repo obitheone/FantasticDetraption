@@ -26,7 +26,7 @@ public class DeleteObject : MonoBehaviour {
 		deleting=true;
 	}
 
-	public void DeleteObj()
+	private void DeleteObj()
 	{
 		DestroyTarget ();
 	}
